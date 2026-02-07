@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>"Bla" Ending Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+
+    <!-- Popup -->
+
+    <div id="popup" class="popup">
+
+        <div class="popup-content">
+
+            <h2>Welcome!</h2>
+
+            <p>This is a calculator for you to use to solve the ending of my level "Bla". You have done well to reach this point, and you are nearing the end. Now, I will explain how the ending of my level works.</p>
+
+	<p>Scattered throughout the level are 4 objects. These objects are special, and will change colors each attempt, somewhat like the special background objects in the level "Boobawamba" by Akunakun. The objects can be 
+	<span style="color: #FF0000;">Red, </span>
+	<span style="color: #0000FF;">Blue, </span>
+	<span style="color: #00FF00;">Green, </span>
+ 	<span style="color: #FFFF00;">Yellow, </span>
+or completely missing. Your job is to identify which are the special objects and to keep track of them during your completion. Upon clearing the final jump, you should return to this website and input the colors of the objects you saw. If you are correct, the information you will receive should be very helpful to you in order to solve the ending.</p>
+
+<p>Good Luck!</p>
+
+<p>- GreenLotus</p>
+
+            <button onclick="closePopup()">Close</button>
+
+        </div>
+
+    </div>
+
+
+
+    <h1>"Bla" Ending Calculator</h1>
+
+
+
+    <!-- Dropdowns -->
+
+    <label>Object 1:</label>
+
+    <select id="object1">
+
+        <option value="1">Red</option>
+
+        <option value="2">Blue</option>
+
+	<option value="3">Green</option>
+
+	<option value="4">Yellow</option>
+
+	<option value="0">None</option>
+
+    </select>
+
+
+
+    <br><br>
+
+
+
+    <label>Object 2:</label>
+
+    <select id="object2">
+
+        <option value="1">Red</option>
+
+        <option value="2">Blue</option>
+
+	<option value="3">Green</option>
+
+	<option value="4">Yellow</option>
+
+	<option value="0">None</option>
+
+    </select>
+
+
+
+    <br><br>
+
+
+<label>Object 3:</label>
+
+    <select id="object3">
+
+        <option value="1">Red</option>
+
+        <option value="2">Blue</option>
+
+	<option value="3">Green</option>
+
+	<option value="4">Yellow</option>
+
+	<option value="0">None</option>
+
+    </select>
+
+
+
+    <br><br>
+
+
+<label>Object 4:</label>
+
+    <select id="object4">
+
+        <option value="1">Red</option>
+
+        <option value="2">Blue</option>
+
+	<option value="3">Green</option>
+
+	<option value="4">Yellow</option>
+
+	<option value="0">None</option>
+
+    </select>
+
+
+
+    <br><br>
+
+
+
+
+
+    <button onclick="calculate()">Submit</button>
+
+    <button onclick="openPopup()">Show Popup Again</button>
+
+    <button onclick="reset()">Reset</button>
+
+
+    <h2 id="result1">?</h2>
+<h2 id="result2">?</h2>
+<h2 id="result3">?</h2>
+<h2 id="result4">?</h2>
+<h2 id="result5">?</h2>
+<h2 id="result6">?</h2>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
+

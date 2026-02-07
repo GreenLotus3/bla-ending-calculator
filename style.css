@@ -1,0 +1,86 @@
+html, body {
+  height: 100%;        /* Make body & html fill full viewport height */
+  margin: 0;           /* Remove default margins */
+  padding: 0;  
+}
+
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    padding: 40px;
+
+}
+
+
+
+.popup {
+
+    display: none;
+
+    position: fixed;
+
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.5);
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+
+.popup-content {
+
+    background: white;
+
+    padding: 20px 30px;
+
+    border-radius: 8px;
+
+    text-align: center;
+
+}
+
+
+
+button {
+
+    margin-top: 10px;
+
+}
+
+#result1 {
+  color: #FF0000;
+  font-weight: bold;
+}
+
+#result2 {
+  color: #FFA500;
+  font-weight: bold;
+}
+
+#result3 {
+  color: #FFFF00;
+  font-weight: bold;
+}
+
+#result4 {
+  color: #00FF00;
+  font-weight: bold;
+}
+
+#result5 {
+  color: #0000FF;
+  font-weight: bold;
+}
+
+#result6 {
+  color: #800080;
+  font-weight: bold;
+}
+
+
