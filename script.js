@@ -46,7 +46,29 @@ function closePopup() {
 
 }
 
+function closeHint1() {
 
+    document.getElementById("hint1").style.display = "none";
+
+}
+
+function closeHint2() {
+
+    document.getElementById("hint2").style.display = "none";
+
+}
+
+function closeHint3() {
+
+    document.getElementById("Hint3").style.display = "none";
+
+}
+
+function closeSolution() {
+
+    document.getElementById("solution").style.display = "none";
+
+}
 
 function calculate() {
 
@@ -113,4 +135,5 @@ function reset() {
   document.getElementById("result5").textContent = "";
   document.getElementById("result6").textContent = "";
 }
+
 
