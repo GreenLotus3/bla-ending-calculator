@@ -15,6 +15,30 @@ function openPopup() {
 }
 
 
+function hint1() {
+
+    document.getElementById("hint1").style.display = "flex";
+
+}
+
+function hint2() {
+
+    document.getElementById("hint2").style.display = "flex";
+
+}
+
+function hint3() {
+
+    document.getElementById("hint3").style.display = "flex";
+
+}
+
+function solution() {
+
+    document.getElementById("solution").style.display = "flex";
+
+}
+
 
 function closePopup() {
 
@@ -89,3 +113,4 @@ function reset() {
   document.getElementById("result5").textContent = "";
   document.getElementById("result6").textContent = "";
 }
+
