@@ -60,7 +60,7 @@ function closeHint2() {
 
 function closeHint3() {
 
-    document.getElementById("Hint3").style.display = "none";
+    document.getElementById("hint3").style.display = "none";
 
 }
 
@@ -135,5 +135,6 @@ function reset() {
   document.getElementById("result5").textContent = "";
   document.getElementById("result6").textContent = "";
 }
+
 
 
